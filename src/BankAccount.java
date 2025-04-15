@@ -12,7 +12,6 @@ public class BankAccount {
         this.accountNumber = accountNumber;
     }
 
-    // Method to create a new account
     // Method to create a new account with a random account number between 2000 and 50000
     public static long createAccount(String holderName, double balance) {
         // Generate a random account number between 2000 and 50000

@@ -80,7 +80,6 @@ public class BankingSystem {
                         System.out.println("Account does not exist.");
                         break;
                     }
-
                     showLastFiveTransactions(accountNumberHistory);
                     break;
 
