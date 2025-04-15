@@ -52,7 +52,7 @@ public class BankAccount {
                 System.out.println("Account not found.");
             }
         } catch (SQLException e) {
-            System.out.println("❌ Error: " + e.getMessage());
+            System.out.println("Error: " + e.getMessage());
         }
     }
 
@@ -72,7 +72,7 @@ public class BankAccount {
                 System.out.println("Insufficient balance or account not found.");
             }
         } catch (SQLException e) {
-            System.out.println("❌ Error: " + e.getMessage());
+            System.out.println("Error: " + e.getMessage());
         }
     }
 
@@ -86,7 +86,7 @@ public class BankAccount {
             stmt.setDouble(3, amount);
             stmt.executeUpdate();
         } catch (SQLException e) {
-            System.out.println("❌ Failed to log transaction: " + e.getMessage());
+            System.out.println("Failed to log transaction: " + e.getMessage());
         }
     }
 

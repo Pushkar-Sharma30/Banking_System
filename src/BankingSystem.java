@@ -53,7 +53,7 @@ public class BankingSystem {
                         BankAccount accountDeposit = new BankAccount(accountNumberDeposit);
                         accountDeposit.deposit(depositAmount);
                     } else {
-                        System.out.println("❌ Account does not exist.");
+                        System.out.println("Account does not exist.");
                     }
                     break;
 
@@ -77,7 +77,7 @@ public class BankingSystem {
                     long accountNumberHistory = scanner.nextLong();
 
                     if (!accountExists(accountNumberHistory)) {
-                        System.out.println("❌ Account does not exist.");
+                        System.out.println("Account does not exist.");
                         break;
                     }
 
